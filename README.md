@@ -3,11 +3,11 @@
 
  Assignment Requirement: Create a simple mobile application that:
 
-1.You can find fake responses for the list of videos and books in the attachments.
-2. Or use this api (https://nagwa.free.beeceptor.com/movies)
-3. You can choose one file to fake download.
-4. Show fake download percentage progress for item if the item is downloading.
-5. Mark the item that was downloaded, the
+* You can find fake responses for the list of videos and books in the attachments.
+* Or use this api (https://nagwa.free.beeceptor.com/movies)
+* You can choose one file to fake download.
+* Show fake download percentage progress for item if the item is downloading.
+* Mark the item that was downloaded, the
 
  Key features: 
 -----------
@@ -19,6 +19,10 @@
 * handle failure when problem happened 
 * Retry button to redownload file
 
+Demo
+-----------
+* [Google Drive ](https://drive.google.com/file/d/1eZfDIA_y2BnNxAeO4tboyIj3jPigk7Fn/view?usp=sharing) 
+* 
 Screenshots
 -----------
 
@@ -42,4 +46,4 @@ Clean Architecture with MVVM pattern in the presentation layer
 
  Ref
   -----------
-  when i search to how download file i found can make it with retrofit Stream or andoid downoad manager  but i found solution from   [Jake Wharton](https://github.com/JakeWharton) that can download file with Okhttp only with progress and that link of [File](https://github.com/square/okhttp/blob/209c6c5589d7b0a0f10b4ce78ac6be0740a5cea8/samples/guide/src/main/java/okhttp3/recipes/Progress.java#L102) 
+  When i search to how download file i found can make it with retrofit Stream or andoid downoad manager  but i found solution from   [Jake Wharton](https://github.com/JakeWharton) that can download file with Okhttp only with progress and that link of [File](https://github.com/square/okhttp/blob/209c6c5589d7b0a0f10b4ce78ac6be0740a5cea8/samples/guide/src/main/java/okhttp3/recipes/Progress.java#L102) 
